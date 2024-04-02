@@ -17,3 +17,11 @@ print(type(age))
 #change the type explicitly 
 age = float(age)
 print(age)
+
+
+#implicitly convertly a value or variable automatically
+x = 2
+y = 2.0
+
+x = x/y
+print(type(x))
