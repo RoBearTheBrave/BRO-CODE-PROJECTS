@@ -1,0 +1,2 @@
+This is going to write over the first text
+This is going to be appended to the file
