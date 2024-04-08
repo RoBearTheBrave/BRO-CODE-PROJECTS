@@ -18,9 +18,12 @@
 
 # create a car class
 class Car: 
-    def __init__(self, make, model, year, color): # the __init__ method is a special method that is called when an object is created # self must be the first parameter in all method definitions
-        self.make = make
-        self.model = model
+
+    wheels = 4 # this is a class variable, it is shared by all instances of the class
+
+    def __init__(self, make, model, year, color): # the __init__ method (CONSTRUCTOR) is a special method that is called when an object is created # self must be the first parameter in all method definitions
+        self.make = make 
+        self.model = model # THESE VARIABLES ARE CALLED INSTANCE VARIABLES
         self.year = year
         self.color = color
     
